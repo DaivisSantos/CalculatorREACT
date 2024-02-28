@@ -114,7 +114,7 @@ function Calculadora () {
 
             <div className={styles.botoes}>
                 <button className={styles.Button} onClick={() => HandlerClick('0')}>0</button>
-                <button className={styles.Button} onClick={() => HandlerClick(',')}>,</button>
+                <button className={styles.Button} onClick={() => HandlerClick('.')}>.</button>
                 <button className={styles.ButtonI} onClick={() => HandlerClick('0')}></button>
                 <button className={styles.ButtonO} onClick={() => HandlerClick('=')} >=</button>
             </div>
