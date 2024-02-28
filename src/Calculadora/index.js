@@ -25,7 +25,7 @@ function Calculadora () {
         } else if ( numPrimarioSoma !== null) {
 
             const resultadoSoma = parseFloat(numPrimarioSoma) + parseFloat(num);
-            setNum(resultadoSoma.toString())
+            setNum(resultadoSoma.toFixed(2))
             setNumPrimarioSoma(null);
 
         } else if ( numPrimarioSubtraçao !== null ) {
