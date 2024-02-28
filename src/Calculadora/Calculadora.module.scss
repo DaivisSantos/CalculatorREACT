@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-top: 2em;
+    font-size: 35px;
+    .sessao{
+        display: inline-block;
+        border: 2px solid white;
+        border-radius: 25px;
+        width: calc(100%);
+        max-width: 265px;
+        min-width: 265px;
+        height: calc(90%);
+        .tela{
+            display: flex;
+            width: calc(90%);
+            justify-content: flex-end;
+            margin: 20px 20px 0 20px;
+        }
+
+        .botoes{
+            display: flex;
+            flex-wrap: nowrap;
+            
+            button{
+                font-size: 30px;
+                width: calc(100%);
+                height: calc(100%);
+                min-height: 2.4em;
+                border-radius: 50%;
+                border: solid 2px black;
+                cursor: pointer;
+            }
+            .ButtonI{
+                background-color: transparent;
+                cursor:default;
+            }
+            .ButtonO{
+                background-color: rgb(226, 134, 42);
+            }
+        }
+    }
+}
+
