@@ -19,7 +19,7 @@ function Calculadora () {
         if (numDividendo !== null) {
           
             const resultado = parseFloat(numDividendo) / parseFloat(num);
-            setNum(resultado.toFixed(6))
+            setNum(resultado.toString())
             setNumDividendo(null);
 
         } else if ( numPrimarioSoma !== null) {
