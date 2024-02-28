@@ -19,13 +19,13 @@ function Calculadora () {
         if (numDividendo !== null) {
           
             const resultado = parseFloat(numDividendo) / parseFloat(num);
-            setNum(resultado.toString())
+            setNum(resultado.toFixed(2))
             setNumDividendo(null);
 
         } else if ( numPrimarioSoma !== null) {
 
             const resultadoSoma = parseFloat(numPrimarioSoma) + parseFloat(num);
-            setNum(resultadoSoma.toFixed(2))
+            setNum(resultadoSoma.toString())
             setNumPrimarioSoma(null);
 
         } else if ( numPrimarioSubtraçao !== null ) {
